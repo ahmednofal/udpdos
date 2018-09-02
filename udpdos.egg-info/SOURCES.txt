@@ -1,0 +1,7 @@
+README.md
+setup.py
+core/udpdos
+udpdos.egg-info/PKG-INFO
+udpdos.egg-info/SOURCES.txt
+udpdos.egg-info/dependency_links.txt
+udpdos.egg-info/top_level.txt

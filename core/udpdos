@@ -4,7 +4,7 @@ This is a 'Dos' attack program to attack servers, you set the IP
 and the port and the amount of seconds and it will start flooding to that server.
 (inspire from http://hazardedit.com/forum/viewtopic.php?t=73)
 
-Usage : ./flood_udp <ip> <port> <second>
+Usage : ./flood_udp <ip> <port> <timeout>
 """
 import time
 import socket
@@ -12,7 +12,7 @@ import random
 import sys
 
 def usage():
-    print "Usage: " + sys.argv[0] + " <ip> <port> <second>"
+    print "Usage: " + sys.argv[0] + " <ip> <port> <timeout>"
 
 def flood(victim, vport, duration):
     # okay so here I create the server, when i say "SOCK_DGRAM" it means it's a UDP type program
