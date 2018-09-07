@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import setuptools
+import io
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+fh = io.open("README.md", mode="r", encoding="utf-8")
+long_description = fh.read()
 
 tool_name="udpdos"
 version_num = "0.0.1"
